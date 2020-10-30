@@ -51,6 +51,10 @@ while True:
       feelings_list.append ("lonely")
       encouragement_list.append ("you are never alone in this world cuz you have me and all your loved ones to back you up!") 
       counter += 1
+    if each_word == "guilty":
+      feelings_list.append ("guilty")
+      encouragement_list.append ("try harder next time! take this as a lesson learnt!") 
+      counter += 1
       
   if counter == 0:
     
